@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+:root {
+  --white-color: #fff;
+  --black-color: #2F2F2F;
+  }
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Inter', sans-serif;
+}
+ul,
+ol {
+  list-style: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  text-decoration: none;
+}
+// блок рамка в 1140
+.wrapper {
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
