@@ -1,0 +1,42 @@
+.choose {
+    display: flex;
+}
+.choose__info {
+    display: flex;
+    flex-direction: column;
+}
+.choose__info__top--title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    margin-bottom: 25px;
+}
+.choose__info__top--text {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A6A6A;
+}
+// item css
+.choose__info__plus {
+    display: flex;
+    flex-wrap: wrap;
+}
+.choose__info__plus__item {
+    display: flex;
+    flex-direction: column;
+}
+.choose__info__plus__item--icon {
+    position: relative;
+    width: 33px;
+}
+.choose__info__plus__item--icon::before {
+    content: '';
+    position: absolute;
+    width: 33px;
+    height: 33px;
+    top: 0px;
+    left: 15px;
+    background: rgba(53, 115, 110, 0.2);
+    border-radius: 50%;
+}

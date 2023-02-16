@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './normalize.scss';
 import Header from "./Components/Header/Header"
 import Crafted from './Components/Crafted/Crafted';
+import Choose from './Components/Choose/Choose';
 
 
 
@@ -11,6 +12,7 @@ root.render(
   <React.StrictMode>
     <Header/>
     <Crafted />
+    <Choose />
   </React.StrictMode>
 );
 
