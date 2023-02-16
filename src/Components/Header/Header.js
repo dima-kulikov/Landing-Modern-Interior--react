@@ -21,8 +21,8 @@ function Header() {
                         <div className="header__info--text">
                             <h1>Modern Interior Design Studio</h1>
                             <div className="header__info--text__btn">
-                                <button className="header__btn">Shop Now</button>
-                                <button className="header__btn">Explore</button>
+                                <button className="btn">Shop Now</button>
+                                <button className="btn">Explore</button>
                             </div>
                         </div>
                         <div className="header__info--img">

@@ -25,8 +25,40 @@ function Modern() {
                         <li>Donec mattis porta eros,let aliquet finibus ri</li>
                     </ul>
 
+                    <button className="btn black__btn">Explore</button>
                 </div>
             </div>
+
+            <ul className="three-chairs">
+
+                <li className="three-chairs__item">
+                    <img src="./img/three-chairs-1.png" alt="Nordic" />
+                    <div className="three-chairs__item__text">
+                        <div className="three-chairs__item__text--title">Nordic Chair</div>
+                        <div className="three-chairs__item__text--desc">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
+                        <a href="#" className="three-chairs__item__text--href">Read more</a>
+                    </div>
+                </li>
+
+                <li className="three-chairs__item">
+                    <img src="./img/three-chairs-2.png" alt="Kruzi Aero" />
+                    <div className="three-chairs__item__text">
+                        <div className="three-chairs__item__text--title">Kruzi Aero</div>
+                        <div className="three-chairs__item__text--desc">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
+                        <a href="#" className="three-chairs__item__text--href">Read more</a>
+                    </div>
+                </li>
+
+                <li className="three-chairs__item">
+                    <img src="./img/three-chairs-3.png" alt="Ergonomic Chair" />
+                    <div className="three-chairs__item__text">
+                        <div className="three-chairs__item__text--title">Ergonomic Chair</div>
+                        <div className="three-chairs__item__text--desc">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
+                        <a href="#" className="three-chairs__item__text--href">Read more</a>
+                    </div>
+                </li>
+
+            </ul>
         </div>
     )
 }

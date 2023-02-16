@@ -3,10 +3,28 @@
     display: flex;
     justify-content: space-between;
 }
+.modern__gallery {
+    position: relative;
+}
+.modern__gallery img {
+    position: relative;
+    z-index: 22;
+}
+.modern__gallery::before{
+    content: '';
+    position: absolute;
+    width: 262px;
+    height: 176px;
+    top: -55px ;
+    left: -112px;
+    background-image: url('/img/modern-dot.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 3;
+}
 .modern__info {
-    display: flex;
-    flex-direction: column;
     max-width: 445px;
+    margin-top: 30px;
 }
 .modern__info--header__title{
     font-weight: 600;
@@ -23,7 +41,62 @@
 .modern__info--list {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 24px;
+    margin-bottom: 38px;
 }
 .modern__info--list li {
+    position: relative;
     max-width: 214px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #6A6A6A;
+    padding-left: 20px;
+}
+.modern__info--list li::before {
+    content: '';
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border: 2px solid #3B5D50;
+    border-radius: 50%;
+}
+///// three chairs
+
+.three-chairs {
+    margin-top: 170px;
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 150px;
+}
+.three-chairs__item {
+    display: flex;
+    align-items: center;
+    max-width: 335px;
+}
+.three-chairs__item img{
+    margin-right: 33px;
+}
+.three-chairs__item__text--title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 22px;
+    color: #000000;
+}
+.three-chairs__item__text--desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: #6A6A6A;
+    margin: 11px 0 11px;
+}
+.three-chairs__item__text--href {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 22px;
+    color: #6A6A6A;
 }

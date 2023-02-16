@@ -7,7 +7,7 @@ function Crafted() {
                 <div className="crafted__info">
                     <h2>Crafted with excellent material.</h2>
                     <p>Donec mattis porta eros, aliquet finibus risus interdum at. Nulla vivethe as it was for us to know what was to be done.</p>
-                    <button className="header__btn crafted__btn">Explore</button>
+                    <button className="btn black__btn">Explore</button>
                 </div>
                 <div className="crafted__doods">
 
