@@ -1,0 +1,29 @@
+.modern {
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.modern__info {
+    display: flex;
+    flex-direction: column;
+    max-width: 445px;
+}
+.modern__info--header__title{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+}
+.modern__info--header__desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #6A6A6A;
+    margin: 28px 0 31px;
+}
+.modern__info--list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.modern__info--list li {
+    max-width: 214px;
+}

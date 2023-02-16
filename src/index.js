@@ -4,6 +4,7 @@ import './normalize.scss';
 import Header from "./Components/Header/Header"
 import Crafted from './Components/Crafted/Crafted';
 import Choose from './Components/Choose/Choose';
+import Modern from './Components/Modern/Modern';
 
 
 
@@ -13,6 +14,7 @@ root.render(
     <Header/>
     <Crafted />
     <Choose />
+    <Modern />
   </React.StrictMode>
 );
 
