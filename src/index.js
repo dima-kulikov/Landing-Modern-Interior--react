@@ -6,6 +6,8 @@ import Crafted from './Components/Crafted/Crafted';
 import Choose from './Components/Choose/Choose';
 import Modern from './Components/Modern/Modern';
 import Feedback from './Components/Feedback/Feedback';
+import Blog from './Components/Blog/Blog';
+import Footer from './Components/Footer/Footer';
 
 
 
@@ -17,6 +19,8 @@ root.render(
     <Choose/>
     <Modern/>
     <Feedback/>
+    <Blog/>
+    <Footer/>
   </React.StrictMode>
 );
 

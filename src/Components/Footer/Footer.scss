@@ -1,0 +1,54 @@
+.subscribe {
+    margin-bottom: 200px;
+    position: relative;
+}
+.subscribe__chair {
+    position: absolute;
+    right: 0;
+    top: -100px;
+}
+.subscribe__title {
+    position: relative;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    padding-left: 35px;
+}
+.subscribe__title::before {
+    position: absolute;
+    content: '';
+    background-image: url('/img/writing.png');
+    width: 22px;
+    height: 20px;
+    left: 0;
+    top: 0;
+} 
+.footer__form {
+    display: flex;
+    align-items: center;
+    max-width: 600px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+.subscribe input::placeholder {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    padding-left: 22px;
+  }
+.footer__form--input {
+    width: 262px;
+    height: 45px;
+    border-radius: 10px;
+    border: 1px solid #C4C4C4;
+}
+.footer__form--btn {
+    background: #35736E;
+    border-radius: 10px;
+    width: 50px;
+    height: 47px;
+    border: none;
+}
+.footer__form--btn img{
+    margin: 0 auto;
+}

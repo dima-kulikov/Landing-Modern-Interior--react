@@ -1,18 +1,52 @@
-.marg-bottom {
-    margin-bottom: 300px;
+.swiper__title {
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
 }
 
 .slid {
 text-align: center;
 margin-bottom: 60px;
 }
-.slid--title {
-    font-weight: 600;
-    font-size: 34px;
-    line-height: 41px;
-}
 .slid--text {
     max-width: 760px;
     margin: 45px auto;
+}
+.slid img{
+    margin: 0 auto;
+}
+.slide-name {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: black;
+}
+.slide-job {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 32px;
+    color: #2F2F2F;
+}
 
+//переделываю кастомные стили слайдера
+.swiper-button-next, .swiper-button-prev {
+    top: 22%;
+}
+.swiper-button-next, .swiper-button-prev {
+    width: 58px !important;
+    height: 58px !important;
+    background: #385D50;
+    border-radius: 50%;
+}
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #fff;
+    font-size: medium !important;
+}
+.swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+    background-color: #385D50;
+    opacity: .2 !important;
+}
+.swiper-pagination-bullet-active {
+    background-color: #385D50 !important;
 }

@@ -1,3 +1,4 @@
+import React from 'react';
 import "../Modern/Modern.scss"
 
 function Modern() {

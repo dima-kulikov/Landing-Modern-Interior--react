@@ -1,3 +1,4 @@
+import React from 'react';
 import "../Choose/Choose.scss"
 
 function Choose() {

@@ -1,3 +1,4 @@
+import React from 'react';
 import "../Crafted/Crafted.scss"
 
 function Crafted() {
