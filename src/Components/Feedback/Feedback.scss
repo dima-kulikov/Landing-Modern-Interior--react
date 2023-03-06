@@ -31,13 +31,15 @@ margin-bottom: 60px;
 
 //переделываю кастомные стили слайдера
 .swiper-button-next, .swiper-button-prev {
-    top: 22%;
-}
-.swiper-button-next, .swiper-button-prev {
     width: 58px !important;
     height: 58px !important;
     background: #385D50;
     border-radius: 50%;
+        @media (max-width: 768px) {
+        top: 70% !important;
+         width: 48px !important;
+        height: 48px !important;        
+    }
 }
 .swiper-button-next:after, .swiper-button-prev:after{
     color: #fff;
