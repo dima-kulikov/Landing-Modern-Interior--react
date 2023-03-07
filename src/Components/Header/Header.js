@@ -2,12 +2,27 @@ import React from 'react';
 import "../Header/Header.scss"
 
 function Header() {
+
+function handleClick() {
+    let btnMobMenu = document.querySelector('.btn-mob-menu');
+    let nav = document.querySelector('.nav');
+        nav.classList.toggle('nav--active');
+        btnMobMenu.classList.toggle('btn-mob-menu--active');
+}
+
+
+
     return(
         <header>
             <div className="wrapper">
                 <div className="header__block">
                     <div className="header__logo">Furni.</div>
-                        <nav>
+                    <div className='btn-mob-menu' onClick={handleClick}>
+                        <div className='burger burger-1'></div>
+                        <div className='burger burger-2'></div>
+                        <div className='burger burger-3'></div>
+                    </div>
+                        <nav className='nav'>
                             <ul className="header__list">
                                 <li><a href="#">Home</a></li>
                                 <li><a href="#">about us</a></li>

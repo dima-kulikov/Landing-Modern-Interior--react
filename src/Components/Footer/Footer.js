@@ -5,7 +5,7 @@ function Footer() {
     return(
         <footer className='wrapper'>
             <div className="subscribe">
-        <img src="./img/chair.png" alt="" className="subscribe__chair" />
+        
 
         <div className="subscribe__title">Subscribe to Newsletter</div>
         <from className='footer__form'>
@@ -15,6 +15,7 @@ function Footer() {
                 <img src="../img/icon/telega.png" alt="img" />
             </button>
         </from>
+        <img src="./img/chair.png" alt="" className="subscribe__chair" />
         </div>
 
         <div className="footer-info">
