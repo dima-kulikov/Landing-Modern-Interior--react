@@ -4,6 +4,7 @@ import "../Crafted/Crafted.scss"
 function Crafted() {
     return(
         <div className="wrapper">
+            <div id="crafted"></div>
             <div className="crafted">
                 <div className="crafted__info">
                     <h2>Crafted with excellent material.</h2>

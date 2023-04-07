@@ -4,6 +4,7 @@ import '../Blog/Blog.scss';
 function Blog() {
     return(
         <div className='wrapper blog'>
+            <div id='blog'></div>
             <div className="blog__info">
             <div className="blog__info--title">Recent Blog</div>
             <a href="#"> View All Posts</a>

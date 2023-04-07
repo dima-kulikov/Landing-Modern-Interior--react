@@ -4,6 +4,7 @@ import "../Modern/Modern.scss"
 function Modern() {
     return (
         <div className="wrapper">
+            <div id='services'></div>
             <div className="modern">
                 <div className="modern__gallery">
                     <img src="./img/modern.png" alt="modern" />

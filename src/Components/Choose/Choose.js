@@ -4,6 +4,7 @@ import "../Choose/Choose.scss"
 function Choose() {
     return(
         <div className="wrapper">
+            <div id='about'></div>
             <div className="choose">
                 <div className="choose__info">
                     <div className="choose__info__top">
