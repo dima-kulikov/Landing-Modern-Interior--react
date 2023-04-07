@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Landing-Modern-Interior--react/static/css/main.9f500e2d.css",
+    "main.js": "/Landing-Modern-Interior--react/static/js/main.6021f6dd.js",
+    "index.html": "/Landing-Modern-Interior--react/index.html",
+    "main.9f500e2d.css.map": "/Landing-Modern-Interior--react/static/css/main.9f500e2d.css.map",
+    "main.6021f6dd.js.map": "/Landing-Modern-Interior--react/static/js/main.6021f6dd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f500e2d.css",
+    "static/js/main.6021f6dd.js"
+  ]
+}
