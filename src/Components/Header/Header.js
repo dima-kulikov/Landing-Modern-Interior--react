@@ -11,7 +11,6 @@ function handleClick() {
         btnMobMenu.classList.toggle('btn-mob-menu--active');
 }
 useEffect(() => {
-
 window.onscroll = () => {
     if(window.scrollY > 600){
         document.querySelector('.scroll-up').classList.add('active-scroll-up');
@@ -19,12 +18,8 @@ window.onscroll = () => {
         document.querySelector('.scroll-up').classList.remove('active-scroll-up');
     }
 }
-
-
-
 const anchors = document.querySelectorAll('a[href*="#"]');
 console.log(anchors)
-
     for( let anchor of anchors){
         anchor.addEventListener("click", (e)=>{
             e.preventDefault();
@@ -42,10 +37,8 @@ console.log(anchors)
     return(
         <header>
             <div className="wrapper">
-                {/* scroll up */}
                 <div className="scroll-up "><a href="#up">Up</a></div>
                 <div id="up"></div>
-                {/* header block */}
                 <div className="header__block">
                     <div className="header__logo">Furni.</div>
                     <div className='btn-mob-menu' onClick={handleClick}>
@@ -74,12 +67,10 @@ console.log(anchors)
                             </div>
                         </div>
                         <div className="header__info--img">
-                        <img src="/img/header.png" alt="img"/>
-                        
+                        <img src="./img/header.png" alt="img"/>
                         </div>
                     </div>
                 </div>
-                <img src="./img/capttch.jpg" alt="" />
         </header>
     )
 }
