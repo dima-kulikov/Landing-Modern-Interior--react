@@ -38,7 +38,7 @@ function Modern() {
                     <div className="three-chairs__item__text">
                         <div className="three-chairs__item__text--title">Nordic Chair</div>
                         <div className="three-chairs__item__text--desc">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
-                        <a href="#" className="three-chairs__item__text--href">Read more</a>
+                        {/* <a href="#" className="three-chairs__item__text--href">Read more</a> */}
                     </div>
                 </li>
 
@@ -47,7 +47,7 @@ function Modern() {
                     <div className="three-chairs__item__text">
                         <div className="three-chairs__item__text--title">Kruzi Aero</div>
                         <div className="three-chairs__item__text--desc">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
-                        <a href="#" className="three-chairs__item__text--href">Read more</a>
+                        {/* <a href="#" className="three-chairs__item__text--href">Read more</a> */}
                     </div>
                 </li>
 
@@ -56,7 +56,7 @@ function Modern() {
                     <div className="three-chairs__item__text">
                         <div className="three-chairs__item__text--title">Ergonomic Chair</div>
                         <div className="three-chairs__item__text--desc">Donec mattis porta eros, aliquet finibus risus in. Donecd </div>
-                        <a href="#" className="three-chairs__item__text--href">Read more</a>
+                        {/* <a href="#" className="three-chairs__item__text--href">Read more</a> */}
                     </div>
                 </li>
 

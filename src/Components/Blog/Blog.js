@@ -7,7 +7,7 @@ function Blog() {
             <div id='blog'></div>
             <div className="blog__info">
             <div className="blog__info--title">Recent Blog</div>
-            <a href="#"> View All Posts</a>
+            {/* <a href="#"> View All Posts</a> */}
             </div>
             
         <ul className="blog__list">
