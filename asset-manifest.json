@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/Landing-Modern-Interior--react/static/css/main.ebb462d4.css",
+    "main.css": "/Landing-Modern-Interior--react/static/css/main.9d6d4d24.css",
     "main.js": "/Landing-Modern-Interior--react/static/js/main.858cfb0d.js",
     "index.html": "/Landing-Modern-Interior--react/index.html",
-    "main.ebb462d4.css.map": "/Landing-Modern-Interior--react/static/css/main.ebb462d4.css.map",
+    "main.9d6d4d24.css.map": "/Landing-Modern-Interior--react/static/css/main.9d6d4d24.css.map",
     "main.858cfb0d.js.map": "/Landing-Modern-Interior--react/static/js/main.858cfb0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebb462d4.css",
+    "static/css/main.9d6d4d24.css",
     "static/js/main.858cfb0d.js"
   ]
 }
