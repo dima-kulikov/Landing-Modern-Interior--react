@@ -1,6 +1,7 @@
 // import React from 'react';
 import React, { useEffect } from 'react';
 import "../Header/Header.scss"
+import header from "../../img/header.png";
 
 function Header() {
 
@@ -67,7 +68,7 @@ console.log(anchors)
                             </div>
                         </div>
                         <div className="header__info--img">
-                        <img src="./img/header.png" alt="img"/>
+                        <img src={header} alt="img"/>
                         </div>
                     </div>
                 </div>
